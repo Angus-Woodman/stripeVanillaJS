@@ -28,18 +28,16 @@
     var stripe = Stripe("pk_test_51HdxovB6KrRuwHV6JVCl9dlIU2E4mXA1sdLM6roIZM7o7yaLe5LGniJSyI6qB51eXMq31yz9zPt7SxNHL3Znq5Ak00UBH32TB2");
     var checkoutButton = document.getElementById("checkout-button");
     checkoutButton.addEventListener("click", function () {
+      
       const data = {
         item: 'Stubborn Attachments',
         price: 2000,
         img:"https://i.imgur.com/EHyR2nP.png"
       };
-      console.log(data)
-
       const options = {
         method: "POST",
         body: JSON.stringify(data),
       }
-      console.log(options)
 
       fetch("/create-session", options)
         .then(r => r.json())
