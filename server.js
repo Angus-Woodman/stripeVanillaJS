@@ -8,7 +8,6 @@ app.use(bodyParser.text());
 app.use(express.static('.'));
 const YOUR_DOMAIN = 'http://localhost:4242';
 app.post('/create-session', async (req, res) => {
-  console.log(req.body)
   const item = JSON.parse(req.body)
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
