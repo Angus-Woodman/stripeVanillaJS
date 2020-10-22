@@ -1,0 +1,56 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+#home {
+  text-align: center;
+  border: solid 1px black;
+  width: 97vw;
+  height: 100vh;
+}
+
+#home img {
+  width:400px;
+}
+
+#about {
+  text-align: center;
+  border: solid 1px black;
+}
+
+#art {
+  text-align: center;
+  border: solid 1px black;
+}
+
+.product {
+  text-align: center;
+  border: solid 1px black;
+  width: 97vw;
+  height: 100vh;
+}
+
+.product img{
+    width:400px;
+}
