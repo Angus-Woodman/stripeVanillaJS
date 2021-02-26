@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_51HdxovB6KrRuwHV6gjYobKMwj7PJV5OMzWELD5Y7gXW0vSYfoJ75iZPRIVNTYcTAUV62xBTKrMesMmSnMjrjGtm500y1Djh0MK');
+const stripe = require('stripe')('sk_test_51IOjpLFbQZ4N47rtgoDzg7iSdZe2Z1NMnaEmfyxDlMrAvJe9WgrELEIL7xhU4pMnQtstgQhY8F3EECSvqyQ8Llfh00risBpZ0I');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
